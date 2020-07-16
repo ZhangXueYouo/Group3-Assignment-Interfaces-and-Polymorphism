@@ -52,9 +52,9 @@ public class AngryDuck extends WaterFowl implements Teleporter
               System.out.println(this.getName() + " cant teleport, value y is out of range [0,1000]");
               return;
           }
-               this.x = x;
-               this.y = y;
-             System.out.println(getPosition());
+          Animal.x = x;
+          Animal.y = y;
+          System.out.println(getPosition());
     
       }//end of 
   
