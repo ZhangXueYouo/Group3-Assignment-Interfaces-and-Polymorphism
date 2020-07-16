@@ -36,8 +36,8 @@ public class CuriousBunny extends Animal implements Teleporter
           {
           System.out.println(this.getName() + " cant teleport, value y is out of range [0,1000]");
           }
-          this.x = x;
-          this.y = y;
+          Animal.x = x;
+          Animal.y = y;
           System.out.println(getPosition());
      }
      
