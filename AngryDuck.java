@@ -38,4 +38,34 @@ public class AngryDuck extends WaterFowl
           }
      }//end of swim()
      
+     // add from here !!!
+     public void teleport (int x, int y)
+     {
+          if( x < HALF || x > WIDTH )
+          {
+              System.out.println(this.getName()+ " cant teleport,value x is out of range [500,1000]");
+              return;
+          }
+    
+          if( y > HEIGHT || y < 0 )
+          {
+              System.out.println(this.getName() + " cant teleport, value y is out of range [0,1000]");
+              return;
+          }
+               this.x = x;
+               this.y = y;
+             System.out.println(getPosition());
+    
+      }//end of 
+  
+     
+     public String getPosition() 
+     {
+          return this.getName() + "'s position is:(" + x + "," + y +")";
+     }//end of 
+     
+     
+     
+     
+     
 }//end of class
