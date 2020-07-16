@@ -68,6 +68,21 @@ public class Driver
           System.out.print("Animals alive ");
           Animal.getCount();
           
+          System.out.println("New thing testing:------------------------------ " ); 
+          System.out.println(blacky.getPosition());
+          System.out.println( pato.getPosition()); 
+          pato.teleport(1100,500);
+          System.out.println( pato.getPosition()); 
+          pato.teleport(1000,500);
+          blacky.teleport(1100,500);
+          blacky.teleport(500,500);
+          blacky.teleport(600,500);
+          
+          
+          
+          
+          
+          
      }//end of main()
      
 }//end of class
