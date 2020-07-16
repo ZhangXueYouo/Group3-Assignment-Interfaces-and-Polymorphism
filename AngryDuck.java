@@ -1,6 +1,6 @@
 /*Author: Paola Flores ID T00651883*/
 
-public class AngryDuck extends WaterFowl
+public class AngryDuck extends WaterFowl implements Teleporter
 {
      public AngryDuck()
      {
